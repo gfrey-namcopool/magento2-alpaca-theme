@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 - styled subscribe checkbox (#68462)
 ### Changed
 - gift card template (#68589)
+- reduced spacing above Available in stores (#68585)
 ### Fixed
 ### Removed
 
