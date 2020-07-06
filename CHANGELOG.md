@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - styled subscribe checkbox (#68462)
 ### Changed
+- gift card template (#68589)
 ### Fixed
 ### Removed
 
