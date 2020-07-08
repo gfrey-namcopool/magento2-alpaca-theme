@@ -9,6 +9,7 @@ All notable changes to this project will be documented in this file.
 - gift card template (#68589)
 - reduced spacing above Available in stores (#68585)
 ### Fixed
+- bundle with multiselect - options in summary (#68469)
 ### Removed
 
 
