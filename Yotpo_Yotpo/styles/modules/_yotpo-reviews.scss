@@ -1,6 +1,7 @@
 $yotpo-reviews__action-color                    : $font-color-base !default;
 $yotpo-reviews__action-color-hover              : $blue !default;
-$yotpo-reviews__action-text-decoration          : underline !default;
+$yotpo-reviews__action-text-decoration          : none !default;
+$yotpo-reviews__action-text-decoration-hover    : underline !default;
 $yotpo-reviews__action-font-size                : $font-size-medium !default;
 $yotpo-reviews__action-font-family              : $font-family-base !default;
 $yotpo-reviews__action-text-transform           : capitalize !default;
@@ -391,9 +392,12 @@ $yotpo-reviews__date-font-weight                : $font-weight-normal !default;
                         }
                     }
                 }
-                .yotpo-read-more,
-                .yotpo-read-less {
+                .yotpo-read-more {
                     @extend .link;
+                    text-decoration: $yotpo-reviews__action-text-decoration !important;
+                    &:hover {
+                        text-decoration : $yotpo-reviews__action-text-decoration-hover !important;
+                    }
                 }
             }
 
