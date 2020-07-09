@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - styled subscribe checkbox (#68462)
 - zoom icon to product gallery (#68584)
+- html support for terms and conditions checkbox text (#68597)
 ### Changed
 - gift card template (#68589)
 - reduced spacing above Available in stores (#68585)
