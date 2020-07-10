@@ -12,10 +12,14 @@ All notable changes to this project will be documented in this file.
 - reduced spacing above Available in stores (#68585)
 ### Fixed
 - bundle with multiselect - options in summary (#68469)
+- add mising price wrapper class (#61546)
 ### Removed
 
 
 ## [Released]
+
+### Fixed
+- issue with special characters in product name in minicart (#68844)
 
 ## [2.3.0] - 2020-07-03
 ### Added
