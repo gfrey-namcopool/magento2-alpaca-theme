@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 ### Fixed
 - gdpr agreements templates after update (#68654)
+- cart & checkout discount summary (#68737)
+## Removed
+- 'what is paypal?' from paypal express template (#68737)
 
 ## [Released]
 
