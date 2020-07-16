@@ -2,13 +2,17 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
+### Added
+- pointer cursor for zoom in icon (#69031)
+
+## [Released]
+
+## [2.5.0] - 2020-07-15
 ### Fixed
 - gdpr agreements templates after update (#68654)
 - cart & checkout discount summary (#68737)
 ## Removed
 - 'what is paypal?' from paypal express template (#68737)
-
-## [Released]
 
 ## [2.4.0] - 2020-07-13
 ### Added
