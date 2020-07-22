@@ -4,8 +4,11 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 ### Added
 - pointer cursor for zoom in icon (#69031)
+- paypal review component (#59142)
 ### Fixed
 - modal close icon overlay on text (#69152)
+### Changed
+- paypal review order page (#59142)
 
 ## [Released]
 
