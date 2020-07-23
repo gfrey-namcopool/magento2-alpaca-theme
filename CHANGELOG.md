@@ -7,8 +7,12 @@ All notable changes to this project will be documented in this file.
 - paypal review component (#59142)
 ### Fixed
 - modal close icon overlay on text (#69152)
+- sasslint warnings (#64998)
 ### Changed
 - paypal review order page (#59142)
+- typo in newsletter (#67925)
+### Removed
+- unused code (#64998)
 
 ## [Released]
 
