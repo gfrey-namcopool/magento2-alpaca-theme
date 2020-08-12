@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 ### Added
+- full with variant styles to slider (#69023)
+
+## [Released]
+## [2.6.0] - 2020-08-06
+### Added
 - pointer cursor for zoom in icon (#69031)
 - paypal review component (#59142)
 ### Fixed
@@ -12,10 +17,16 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - paypal review order page (#59142)
 - typo in newsletter (#67925)
+
+### Changed
+- loader to sth "standard" (#68653)
+
 ### Removed
 - unused code (#64998)
 
-## [Released]
+### Fixed
+- sasslint warnings (#64998)
+- configurable produt special price visibility and styling, updating product price on swatch change (#69349)
 
 ## [2.5.0] - 2020-07-15
 ### Fixed
