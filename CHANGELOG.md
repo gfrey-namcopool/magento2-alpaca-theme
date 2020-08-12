@@ -7,6 +7,9 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - Amasty Store Locator template for module version 2.4.2 (#69148)
 
+### Added
+- 67442: color property with variable for easier override of select2 styles
+
 ## [Released]
 ## [2.6.0] - 2020-08-06
 ### Added
