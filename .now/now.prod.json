@@ -1,0 +1,8 @@
+{
+  "name": "alpaca-components-2-master",
+  "version": 2,
+  "scope": "snowdog",
+  "type": "npm",
+  "forwardNpm": true,
+  "alias": ["alpaca-components-2.now.sh"]
+}
