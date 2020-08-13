@@ -32,18 +32,17 @@ jobs:
       - checkout
       - run: cd Snowdog_Components && yarn
       - run: cd Snowdog_Components && yarn build --ci
-      - run: cd Snowdog_Components && sudo npm install --global --unsafe-perm --silent now@16.7
+      - run: sudo npm install --global --unsafe-perm --silent now@16.7
       - run: echo $CIRCLE_BRANCH
       - run: if [ "${CIRCLE_BRANCH}" == "master" ]; then
-                        now --token $NOW_TOKEN --local-config .now/now.prod.json
-                        now --token $NOW_TOKEN --local-config .now/now.prod.json alias
+                        cd Snowdog_Components && now --token $NOW_TOKEN --local-config ../.now/now.prod.json
+                        cd Snowdog_Components && now --token $NOW_TOKEN --local-config ../.now/now.prod.json alias
                     elif [ "${CIRCLE_BRANCH}" == "develop" ]; then
-                        now --token $NOW_TOKEN --local-config .now/now.stage.json
-                        now --token $NOW_TOKEN --local-config .now/now.stage.json alias
+                        cd Snowdog_Components && now --token $NOW_TOKEN --local-config ../.now/now.stage.json
+                        cd Snowdog_Components && now --token $NOW_TOKEN --local-config ../.now/now.stage.json alias
                     else
-                        ./.now/now.feature.sh
-                        now --token $NOW_TOKEN --local-config .now/now.feature.json
-                        now --token $NOW_TOKEN --local-config .now/now.feature.json alias
+                        cd Snowdog_Components && now --token $NOW_TOKEN --local-config ../.now/now.feature.json
+                        cd Snowdog_Components && now --token $NOW_TOKEN --local-config ../.now/now.feature.json alias
                     fi
 
 workflows:
