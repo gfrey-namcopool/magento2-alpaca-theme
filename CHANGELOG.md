@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - color property with variable for easier override of select2 styles (#67443)
 - full with variant styles to slider (#69023)
-- EE - gift registry (#65717), Affects: datepicker styles
+- EE - gift registry (#65717), Affects: all gift registry pages ('/giftregistry/*'), datepicker styles
 
 ### Fixed
 - Amasty Store Locator template for module version 2.4.2 (#69148)
