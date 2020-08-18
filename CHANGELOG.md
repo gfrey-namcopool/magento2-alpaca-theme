@@ -3,17 +3,15 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 ### Added
+- color property with variable for easier override of select2 styles (#67443)
 - full with variant styles to slider (#69023)
+- EE - gift registry (#65717), Affects: datepicker styles
+
 ### Fixed
 - Amasty Store Locator template for module version 2.4.2 (#69148)
 
-### Added
-- 67442: color property with variable for easier override of select2 styles
 ### Changed
 - zoomed in image background opacity & close button to dark (#69145)
-
-### Added
-- 67443: color property with variable for easier override of select2 styles
 
 ## [Released]
 ## [2.6.0] - 2020-08-06

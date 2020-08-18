@@ -1,0 +1,7 @@
+@import 'gift-registry-variables';
+
+.giftregistry {
+    &__item-image {
+        max-width: $giftregistry__item-image-max-width;
+    }
+}
